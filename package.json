@@ -1,0 +1,21 @@
+{
+  "name": "atom-tinder",
+  "main": "./lib/atom-tinder.coffee",
+  "version": "0.0.0",
+  "description": "Find a date while coding",
+  "activationCommands": {
+    "atom-workspace": "atom-tinder:open"
+  },
+  "repository": "https://github.com/jamesalbert/atom-tinder",
+  "license": "Apache",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "jquery": "^2.1.4"
+  },
+  "scripts": {
+    "postinstall": "apm install browser-plus"
+  }
+}

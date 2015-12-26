@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Open atom-tinder'
+      'command': 'atom-tinder:open'
+    }
+  ]
+  'menu': [
+    {
+      'label': 'Packages'
+      'submenu': [
+        'label': 'atom-tinder'
+        'submenu': [
+          {
+            'label': 'Open',
+            'command': 'atom-tinder:open'
+          }
+        ]
+      ]
+    }
+  ]
